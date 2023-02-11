@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8">
+<meta charset="utf-8">
+ 
+<title>Oluwatomi Amao Resume</title>
+<ul id=counter> </ul>
+<script> 
+    
+    var obj;
+
+    fetch('https://tson3375i6.execute-api.us-east-1.amazonaws.com/RateStage')
+    .then(res => res.json())
+    .then(data => {obj = data;})
+    .then(() => {document.getElementById('displayCounter').innerText = (obj.Attributes.rate);})
+
+    .catch(error => console.log(error));
+
+
+</script>
+
+<!-- Meta -->
+<meta name="description" content="Technology teacher turned cloud engineer, focusing on serverless solutions">
+<meta name="keywords" content="devops,developer,cloud,resume" />
+<meta name="author" content="Oluwatomi Amao">
+ 
+<!-- CSS Stylesheet -->
+<link rel="stylesheet" type="text/css" href="./style.css" />
+ 
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body onload="visitorCounter(event)">
+ 
+ 
+<!-- Begin Wrapper -->
+<div id="wrapper">
+ 
+<!-- Begin Content Area -->
+<div id="content">
+ 
+<!-- Begin Header -->
+<header>
+ 
+<!-- Begin Contact Section -->
+<section id="contact-details">
+    <div itemscope itemtype="http://schema.org/Person">
+     
+    <!-- Begin Profile Image Section -->
+    <div class="header_1">
+    <img src="https://i.ibb.co/JcbnqjV/dp.jpg" itemprop="image" width="200" height="200" alt="Your Name" />
+    <div> Your visitor number is: </div> <div id="displayCounter"></div> 
+    </div>
+    <!-- End Profile Image Section -->
+     
+    <!-- Begin Profile Information Section -->
+    <div class="header_2">
+     
+    <h1><span itemprop="name">Oluwatomi Amao</span></h1>
+    <h3><span itemprop="jobTitle">Cloud Engineer</span></h3>
+     
+    <!-- Begin PostalAddress Schema -->
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <ul class="info_1">
+    <li class="address"><span itemprop="streetAddress"> <span itemprop="addressRegion">London</span>, <span itemprop="postalCode"<43606</span> <span itemprop="addressCountry">United Kingdom</span></li>
+    </ul>
+    </div>
+    <!-- End PostalAddress Schema -->
+     
+    <ul class="info_2">
+    <li class="phone"><span itemprop="telephone">(+44) 7495184435</span></li>
+    <li class="email"><a href="tomiamaooa@gmail.com" itemprop="email">Tomiamaooa@gmail.com</a></li>
+    <li class="site_url"><a rel="me" itemprop="url" href="http://www.theignorantview.uk/" title="www.your-website.com">www.theignorantview.uk</a></li>
+    <li class="linkedin"><a rel="me" itemprop="url" href="https://www.linkedin.com/in/oluwatomi-amao-245b61189/" title="Connect with me on LinkedIn">Linkedin</a></li>
+    </ul>
+
+    </div>
+    <!-- End Profile Information Section -->
+     
+    </div>
+    </section>
+    <!-- End Contact Section -->
+ 
+</header>
+<!-- End Header -->
+ 
+<div class="clear">&nbsp;</div>
+ 
+<!-- Begin Profile Section -->
+<dl>
+<dt>Profile:</dt>
+<dd>
+ 
+<section class="summary">
+    Striving for continuous improvement shapes every aspect of my life. This has led to my profound fascination with new and emerging technologies. Working with Cloud solutions has allowed me to realise my passion to create innovative solutions by exploring intricate technologies.</section>
+ 
+</dd>
+</dl>
+<!-- End Profile Section -->
+ 
+<div class="clear">&nbsp;</div>
+ 
+<!-- Begin Skills Section -->
+<div itemscope itemtype="http://schema.org/ItemList">
+ 
+<dl>
+<dt itemprop="name">Certifications & Skills:</dt>
+<dd>
+ 
+<section id="skills">
+<ul class="list1">
+<li itemprop="itemListElement">AWS Solution Architect</li>
+<li itemprop="itemListElement">Azure</li>
+<li itemprop="itemListElement">Python</li>
+<li itemprop="itemListElement">Linux</li>
+</ul>
+<ul class="list2">
+<li itemprop="itemListElement">Terraform</li>
+<li itemprop="itemListElement">Docker</li>
+<li itemprop="itemListElement">Ansible</li>
+<li itemprop="itemListElement">Kubernetes</li>
+
+</ul>
+</section>
+ 
+</dd>
+</dl>
+ 
+</div>
+<!-- End Skills Section -->
+ 
+<div class="clear">&nbsp;</div>
+ 
+<!-- Begin Experience Section -->
+<dl>
+<dt>Experience:</dt>
+ 
+<dd>
+ 
+<section id="experience">
+ 
+<!-- Position #1 -->
+ 
+<h2 class="top">Cloud Engineer</h2>
+<p class="bus1">Digital Futures</p>
+<p class="time">September 2022 &#45; Present</p>
+<p class="time">Key skills developed: Cloud Architecture, Proposal Writing , Stakeholder Engagement </p>
+
+ 
+<p>
+    <li>12 Week intensive programme covering technical and professional skills in the cloud industry</li>
+    <li>Proposed a migration strategy for a mockup on premise infrastructure; the proposal detailed cost savings, migrating risk, cloud-native solutions and short to long term benefits </li>
+    <li>Creating a cloud CV resume with tools such as: Javascript, DynamoDB, SAM and GitHub actions</li>
+</p>
+ 
+ 
+<!-- Position #2 -->
+ 
+<h2>Technology Teacher</h2>
+<p class="bus1">The Westwood Academy</p>
+<p class="time">September 2020 &#45; July 2022</p>
+<p class="time">Key skills developed: Presentation, Planning & Organisation, Curiosity and Facilitation  </p>
+<p>
+    <li>Plan and deliver 25 engaging lessons a week, using PowerPoint that are based on research informed evidence, enabling challenging learners to understand complex technological topics.</li>
+    <li>Track and apply pupil progress data to curate effective learning practices improving the percentage of pupils achieving high grades by 28% </li>
+    <li>Applied regular critical reflection to improve pedagogy expertise and personal development</li>
+</p>
+ 
+ 
+<!-- Position #3 -->
+ 
+<h2>Students Letting Negotiator</h2>
+<p class="bus1">Nicholas Humphrey Lettings</p>
+<p class="time">October 2019 &#45; March 2020</p>
+<p class="time">Key skills developed: Commercial awareness, Interpersonal and Influencing</p>
+
+<p>
+    <li>Established and managed client relationships to secure sales beating targets by 9%.</li>
+    <li>Improved the client experience when securing a sale, causing sales to increase by 15%</li>
+</p>
+ 
+</section>
+ 
+</dd>
+</dl>
+<!-- End Experience Section -->
+ 
+<div class="clear">&nbsp;</div>
+ 
+<!-- Begin Publications Section -->
+<dl>
+<dt>Interests:</dt>
+ 
+<dd>
+ 
+    <section id="interest">
+        <ul class="list1">
+        <li>Serverless Apps</li>
+        <li> Personal Finance Course</li>
+        <li>Medium blog writing</li>
+        <li>Charity and Fundraising</li>
+        </ul>
+        <ul class="list2">
+        <li>Serverless sending application, Cloud Resume Challenge</li>
+        <li>Curated and delivered a 6-week personal finance and investment course to 30+ students </li>
+        <li>Weekly blogs that covers self development, financial literacy and blockchain </li>
+        <li>Involved in the TeachFirst ambassador network dedicated to disadvantaged schools</li>
+        </ul>
+        </section>
+         
+        </dd>
+        </dl>
+</section>
+ 
+</dd>
+</dl>
+
+<!-- End Publications Section -->
+ 
+<div class="clear">&nbsp;</div>
+ 
+<!-- Begin Education Section -->
+<dl>
+<dt>Education:</dt>
+<dd>
+ 
+
+
+
+
+<section id="skills">
+<ul class="list1">
+    <p class="bus1">Postgraduate Diploma in Education</p>
+ 
+    Birmingham City University, United Kingdom 
+    <p class="time">September 2020 &#45; July 2022</p>
+     
+    </p>
+</ul>
+<ul class="list2">
+    <p class="bus1">BA Jt Hons History and East European Cultural Studies </p>
+ 
+    Nottingham University, United Kingdom 
+    <p class="time">September 2017 &#45; July 2020</p>
+     
+    </p>
+</ul>
+
+</section>
+ 
+</dd>
+
+</dl>
+ 
+</section>
+ 
+</dd>
+</dl>
+<!-- End Education Section -->
+ 
+<div class="clear">&nbsp;</div>
+ 
+<!-- Begin Footer -->
+<footer id="footer">
+ 
+<!-- Begin Footer Content -->
+<div class="footer_content">
+ 
+<!-- Begin Social Media and Download Links -->
+<div itemscope itemtype="http://schema.org/Person">
+ 
+    <ul class="icons_1">
+    <li><a rel="me" itemprop="url" href="https://theignorant-views.medium.com/" title="Medium"><img src="https://i.ibb.co/FY5gpG7/medium.png" width="32" height="32" alt="Medium" /></a></li> 
+    <li><a rel="me" itemprop="url" href="https://www.linkedin.com/in/oluwatomi-amao-245b61189/" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" width="32" height="32" alt="LinkedIn" /></a></li>
+    <li><a rel="me" itemprop="url" href="https://github.com/CaliphKnaz" title="github"><img src="https://skillicons.dev/icons?i=git" width="32" height="32" alt="Github" /></a></li>
+    </ul>
+     
+    <ul class="icons_2">
+    <li><a href="resume.pdf" title="Download Resume PDF" ><img src="https://i.ibb.co/GcjBv3J/2931171-download-import-save-down-storage-icon.png" width="32" height="32" alt="Download Resume PDF" /></a></li>
+    </ul>
+    <a href="path_to_file" download="proposed_file_name">Download</a>
+    </div>
+    <!-- End Social Media and Download Links -->
+ 
+</div>
+<!-- End Footer Content -->
+ 
+<div class="credits">
+<br />
+<div data-iframe-width="140" data-iframe-height="140" data-share-badge-id="404f48fd-3262-4c95-af55-07fc7c1613d1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="140" data-iframe-height="140" data-share-badge-id="42ed0c8d-e050-4be5-bf88-11512de77539" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="140" data-iframe-height="140" data-share-badge-id="3d394aae-844a-4086-a37d-acaabd0daad7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+</div>
+ 
+</footer>
+<!-- End Footer -->
+ 
+</div>
+<!-- End Content -->
+ 
+</div>
+<!-- End Wrapper -->
+ 
+</body>
+</html>
