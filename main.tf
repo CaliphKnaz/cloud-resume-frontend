@@ -26,8 +26,8 @@ provider "aws" {
 
 
 module "cloud-resume" {
-  source                      = "./modules/cloud-resume"
-  bucket-name                 = "cloud-resume-999"
+  source      = "./modules/cloud-resume"
+  bucket-name = "cloud-resume-999"
 
 }
 
